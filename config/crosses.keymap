@@ -45,7 +45,7 @@
             bindings = <
 &as N1 EXCL      &as N2 AT       &as N3 HASH  &as N4 DOLLAR        &as N5 PERCENT  &as N6 CARET  &as N7 AMPS           &as N8 ASTRK  &as N9 LEFT_PARENTHESIS  &as N0 RIGHT_PARENTHESIS
 &as MINUS UNDER  &as EQUAL PLUS  &kp LBRC     &kp LBKT             &kp LPAR        &kp RPAR      &kp RBKT              &kp RBRC      &as FSLH QUESTION        &as BSLH PIPE
-&as GRAVE TILDE  &trans          &trans       &as COMMA LESS_THAN  &kp COLON       &kp SEMI      &as DOT GREATER_THAN  &kp LCTRL     &kp RALT                 &trans
+&as GRAVE TILDE  &trans          &trans       &as COMMA LESS_THAN  &kp COLON       &kp SEMI      &as DOT GREATER_THAN  &kp LCTRL     &kp RALT                 &bt BT_CLR
                                  &kp LGUI     &kp ESC              &kp SPACE       &kp RET       &trans                &kp TAB
             >;
         };
@@ -53,7 +53,7 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_CLR     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
                    &trans     &trans     &trans  &trans  &trans  &trans
